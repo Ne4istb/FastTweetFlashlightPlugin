@@ -5,18 +5,18 @@ import i18n
 
 def results(parsed, original_query):
 
-    search_specs = [
+    tweet_specs = [
         ["~message", "https://twitter.com/share?text="]
     ]
-    for key, url in search_specs:
+    for key, url in tweet_specs:
         if key in parsed:
             localizedurl = i18n.localstr(url)
-            search_url = localizedurl + urllib.quote_plus(parsed[key].encode('UTF-8'))
+            tweet_url = localizedurl + urllib.quote_plus(parsed[key].encode('UTF-8'))
             title = i18n.localstr(
                 "Tweet message '{0}'").format(parsed[key].encode('UTF-8'))
             return {
                 "title": title,
-                "run_args": [search_url],
+                "run_args": [tweet_url],
                 "html": """
                 <script>
                 setTimeout(function() {

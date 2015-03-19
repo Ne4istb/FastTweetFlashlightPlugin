@@ -1,5 +1,5 @@
 {
-  "name": "tweet",
+  "name": "fasttweet",
   "displayName": "Fast tweet",
   "description": "Tweet everything from Spotlight",
   "examples": ["tweet hello world", "t i'm happy"],
