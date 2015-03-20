@@ -1,2 +1,2 @@
-# FastTweetFlashlightPlugin
-Flashlight plugin for fast tweeting from Spotlight
+# Flashlight Plugins
+fasttweet - Flashlight plugin for fast tweeting from Spotlight
