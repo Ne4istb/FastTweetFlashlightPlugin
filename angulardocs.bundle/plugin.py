@@ -6,7 +6,7 @@ import i18n
 def results(parsed, original_query):
 
     angular_specs = [
-        ["~query", "http://docs-angular.herokuapp.com/#/<query>"]
+        ["~query", "http://docs.angularjs.ne4istb.com/#/<query>"]
     ]
     for key, url in angular_specs:
         if key in parsed:
